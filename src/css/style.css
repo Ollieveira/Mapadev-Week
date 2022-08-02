@@ -62,8 +62,7 @@ body {
   background-color: #8351fe;
 }
 
-.cartao {
-  background-color: #8351fe;
+.cartao {  
   height: 100%;
   display: flex;
   flex-direction: column;
