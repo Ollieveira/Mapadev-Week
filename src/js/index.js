@@ -35,12 +35,12 @@ function mostrarCartao(indiceCartao) {
 
 /*----------------- OBJETIVO 1 -------------------------- */
 btnAvancar.addEventListener('click', function () {
+  if (cartaoAtual === cartoes.length - 1) cartaoAtual = -1
+
   esconderCartaoSelecionado()
 
   cartaoAtual++
   mostrarCartao(cartaoAtual)
-
-  if (cartaoAtual === cartoes.length - 1) return (cartaoAtual = -1)
 })
 
 /*----------------- OBJETIVO 2 -------------------------- */
