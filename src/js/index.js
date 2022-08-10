@@ -45,10 +45,10 @@ btnAvancar.addEventListener('click', function () {
 
 /*----------------- OBJETIVO 2 -------------------------- */
 btnVoltar.addEventListener('click', function () {
+  if (cartaoAtual === 0) cartaoAtual = 3
+
   esconderCartaoSelecionado()
 
   cartaoAtual--
   mostrarCartao(cartaoAtual)
-
-  if (cartaoAtual === 0) return (cartaoAtual = 3)
 })
